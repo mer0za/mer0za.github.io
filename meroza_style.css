@@ -24,15 +24,7 @@ div.main{
 	background: rgba(255,255,255,.1);
 	margin: 2em;
 	padding: 1em;
-
-&::before{
-	content: '';
-	position: absolute;
-	top: 0;
-	right: 0;
-	filter: blur(.5em);
-	z-index: -1;
-}
+	box-shadow: 0 0 .5em rgba(255,255,255,.1);
 }
 
 h1{
