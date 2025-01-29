@@ -5,12 +5,12 @@
 }
 
 body{
-	background: #142028;
+	background: #0A1824;
 	font-family: "font";
 	color: #fff;
 }
 
-bg{
+.bg{
 	position: fixed;
 	right: 0;
 	top: 0;
