@@ -14,19 +14,25 @@ body{
 
 .bg{
 	position: fixed;
-	right: 0;
 	top: 0;
-	z-index: -1;
+	right: 0;
+	z-index: -3;
 }
 
-div.box{
+div.main{
+	position: relative;
 	background: rgba(255,255,255,.1);
 	margin: 2em;
 	padding: 1em;
 	filter: blur(.5em);
+&::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	filter: blur(.5em);
+	z-index: -1;
 }
-div.main{
-	filter: blur(0);
 }
 
 h1{
