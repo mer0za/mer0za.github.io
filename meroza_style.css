@@ -23,6 +23,7 @@ div.main{
 	background: rgba(255,255,255,.2);
 	margin: 2em;
 	padding: 1em;
+	filter: blur(.5em);
 }
 
 h1{
