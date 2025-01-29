@@ -19,11 +19,14 @@ body{
 	z-index: -1;
 }
 
-div.main{
+div.box{
 	background: rgba(255,255,255,.1);
 	margin: 2em;
 	padding: 1em;
 	filter: blur(.5em);
+}
+div.main{
+	filter: blur(0);
 }
 
 h1{
