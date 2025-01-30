@@ -16,14 +16,6 @@ body{
 	letter-spacing: .1em;
 }
 
-.bg{
-	position: fixed;
-	top: 0;
-	right: 0;
-	z-index: -3;
-	width: ;
-}
-
 div.main{
 	position: relative;
 	background: rgba(255,255,255,.1);
