@@ -7,7 +7,9 @@
 body{
 	background: #0A1824;
 	background-image: url("bgi.png");
+	background-attachment: fixed;
 	background-size: cover;
+	background-repeat: no-repeat;
 	font-family: "font";
 	color: #fff;
 	line-height: 1.5em;
