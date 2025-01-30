@@ -6,6 +6,8 @@
 
 body{
 	background: #0A1824;
+	background-image: url("bgi.png");
+	background-size: cover;
 	font-family: "font";
 	color: #fff;
 	line-height: 1.5em;
@@ -17,6 +19,7 @@ body{
 	top: 0;
 	right: 0;
 	z-index: -3;
+	width: ;
 }
 
 div.main{
